@@ -5,11 +5,10 @@ import PropTypes from 'prop-types'
 export default function Careers(){
   const wrapper = {
   display: 'grid',
-  gridTemplateColumns: '20% 20% 20%',
+  gridTemplateColumns: '25% 25% 25%',
   gridGap: '20px',
   backgroundColor: '#fff',
   color: '#444'
-  // margin: '0 auto'
 }
 
 const outerContainer = {

@@ -9,11 +9,26 @@ export default function CareerBox(props){
     fontSize: '150%',
     border: '1px solid grey'
   }
+
+  const openingStyle = {
+    fontSize: '70px',
+    color: 'rgb(227, 230, 228)'
+  }
+
+  const careerField = {
+    color: 'black'
+  }
+
+  const location = {
+    fontSize: '14px',
+    color: 'rgb(115, 115, 115)'
+  }
+
   return(
     <div style={box}>
-      <p>{props.openings}</p>
-      <p>{props.field}</p>
-      <p>{props.location}</p>
+      <p style={openingStyle}>{props.openings}</p>
+      <p style={careerField}>{props.field}</p>
+      <p style={location}>{props.location}</p>
     </div>
   );
 }
